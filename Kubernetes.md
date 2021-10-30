@@ -23,8 +23,11 @@ API SERVER,
 SCHEDULER,
 ETCD,
 KUBECTL,
-CONTAINER RUN TIME and  
+CONTAINER RUNTIME engine like docker  and  
 CONTROLLER 
 
 ![image](https://user-images.githubusercontent.com/37187773/139560508-f518c68c-30b6-4aad-b2e9-0ebb7ad39e11.png)
+
+API SERVER :- Act like the front end for kubernetes, the users management devices command line interfaces all talk to the API servers to interact with the kubernetes clusters 
+ETCD:- 
 
