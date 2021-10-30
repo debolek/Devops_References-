@@ -29,5 +29,21 @@ CONTROLLER
 ![image](https://user-images.githubusercontent.com/37187773/139560508-f518c68c-30b6-4aad-b2e9-0ebb7ad39e11.png)
 
 API SERVER :- Act like the front end for kubernetes, the users management devices command line interfaces all talk to the API servers to interact with the kubernetes clusters 
-ETCD:- 
+ETCD:- Is a key value store used by kubernetes to store all data use to manage a cluster eg if you have a multiple nodes and multiple masters in your cluster etcd stores all the info on all the nodes in your cluster in a distributed manner. NCD is responsible for implmenting a locks within the cluster to ensure there are no conflicts between the masters. 
+SCHEDULER :- Responsible for distributing work or containers accross multiple nodes.it looks for newly created containers and assigns them to nodes 
+CONTROLLER:- Brain behind orchestration , they are reponsible for noticing and responding when nodes containers or endpoints goes down. The controller makes decisions to bring up new containers. 
+
+CONTAINER RUNTIME :- Is the underlying software that is use to run containers. In our case it happens to be docker 
+
+KUBECTL :- is the agent  responsible for making sure that the cointainers are running on nodes as expected.
+
+
+Kubectl run hello -minikube
+kubectl cluster-info
+kubectl get nodes 
+
+Kubectl run my-web-app --image=my-web-app --replicas=100
+
+
+
 
