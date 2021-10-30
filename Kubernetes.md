@@ -19,11 +19,11 @@ Master :- Is a node with the kubernetes control plane components installed.The m
 
 When you install a Kubernetes on a system you are actually installing the following components,You are installing the following components:- 
 
-API SERVER
-SCHEDULER
-ETCD
-KUBECTL
-CONTAINER RUN TIME 
+API SERVER,
+SCHEDULER,
+ETCD,
+KUBECTL,
+CONTAINER RUN TIME and  
 CONTROLLER 
 
 ![image](https://user-images.githubusercontent.com/37187773/139560508-f518c68c-30b6-4aad-b2e9-0ebb7ad39e11.png)
