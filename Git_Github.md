@@ -13,8 +13,8 @@ Terms
 
 GIT COMMANDS
 
-Clone - Bring a repository that is hosted somewher like Github into a folder on your local machine 
-add - Track your files and changes in GIT 
-commit- save your files in GIT 
-Push - Upload GIT commits to a remote repo, like GITHUB 
-Pull - Download changes from remote repo to your local machine, the opposite of push 
+- Clone - Bring a repository that is hosted somewher like Github into a folder on your local machine 
+- add - Track your files and changes in GIT 
+- commit- save your files in GIT 
+- Push - Upload GIT commits to a remote repo, like GITHUB 
+- Pull - Download changes from remote repo to your local machine, the opposite of push 
