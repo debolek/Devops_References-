@@ -103,7 +103,12 @@ GIT COMMANDS
     git checkout feature-readme-instructions
     git status 
     git push -u origin feature-readme-instructions
+    git checkout
+    git pull 
+    git branch
     
+    git branch -d feature-readme-instructions    ###d means delete
+    git branch
     
     
     
