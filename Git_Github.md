@@ -75,3 +75,8 @@ GIT COMMANDS
    
 
   ![GIT BRANCHING 2](https://user-images.githubusercontent.com/37187773/140642690-6e759872-8e4e-4411-bbf4-56b0d20362ad.jpg)
+  
+  
+  
+  
+ ![concept of branching](https://user-images.githubusercontent.com/37187773/140642985-e295433b-9a4c-4c32-b0ef-12eafa8247eb.jpg)
