@@ -64,3 +64,14 @@ GIT COMMANDS
 
 
     ![local workflow](https://user-images.githubusercontent.com/37187773/140642630-d5ed3f52-18af-4af8-bee0-9cf24ba938f0.jpg)
+    
+    
+    
+    
+   GIT BRANCHING 
+   
+   ![GIT BRANCHING](https://user-images.githubusercontent.com/37187773/140642685-269682eb-66f6-480e-95fa-c2c45641c38c.jpg)
+   
+   
+
+  ![GIT BRANCHING 2](https://user-images.githubusercontent.com/37187773/140642690-6e759872-8e4e-4411-bbf4-56b0d20362ad.jpg)
