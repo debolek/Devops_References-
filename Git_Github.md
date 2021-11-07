@@ -25,7 +25,7 @@ GIT COMMANDS
 - add - Track your files and changes in GIT in case you make any changes 
 
    git add .      
-   
+-git init
 - git status 
    
 
@@ -33,6 +33,7 @@ GIT COMMANDS
 
    
 - commit- save your files in GIT
+      commits to a remote repo, like GITHUB 
 
      git commit -m "Added python-script-to-fetch-the-commit-history-and-index-all-commits-in-Elastic-Search" -m "some description"
     
@@ -41,8 +42,18 @@ GIT COMMANDS
 ![git commit](https://user-images.githubusercontent.com/37187773/140628140-75603682-1e21-426c-b56a-1a0f24daca74.jpg)
 
 - Push - Upload GIT
+    To push to git you need to configure the ssh keygen. There are two keys the one with.pub is the public one that you will put on github while the one without is       your private one and must not be shared with anyone 
+
+![ssh key generation](https://user-images.githubusercontent.com/37187773/140642226-bc00b899-8f23-4445-a967-709a820befe7.jpg)
+    
+     git push origin master 
+     
+     git remote and add origin git@github.com:debolek/devopsreference.git
+     
+     git remote -v  
+     
+     git push -u original master               ###-u is upstream  if you add it then next time you will not need to use original master,you will just put git push 
 
 
- commits to a remote repo, like GITHUB 
 - Pull - Download changes from remote repo to your local machine, the opposite of push 
 
