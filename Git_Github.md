@@ -57,3 +57,10 @@ GIT COMMANDS
 
 - Pull - Download changes from remote repo to your local machine, the opposite of push 
 
+
+    ####### GIT WORK FLOW ############
+    
+    ![commit2](https://user-images.githubusercontent.com/37187773/140642628-9340adfe-5f03-40cc-842a-38b12e9e467e.jpg)
+
+
+    ![local workflow](https://user-images.githubusercontent.com/37187773/140642630-d5ed3f52-18af-4af8-bee0-9cf24ba938f0.jpg)
