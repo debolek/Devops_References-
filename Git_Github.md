@@ -52,7 +52,7 @@ GIT COMMANDS
      
      git remote -v  
      
-     git push -u original master               ###-u is upstream  if you add it then next time you will not need to use original master,you will just put git push 
+     git push -u original master               ###-u is setupstream  if you add it then next time you will not need to use original master,you will just put git push 
 
 
 - Pull - Download changes from remote repo to your local machine, the opposite of push 
@@ -80,3 +80,34 @@ GIT COMMANDS
   
   
  ![concept of branching](https://user-images.githubusercontent.com/37187773/140642985-e295433b-9a4c-4c32-b0ef-12eafa8247eb.jpg)
+ 
+ 
+    git branch
+    git checkout     ###to switch between branches or check out 
+    
+    git checkout -b 'feature-readme-instruction'    ##-b is to create a new branch with a new name
+    git branch       ##you will see the new branch you created 
+    git checkout master
+    git branch
+    git checkout feature-readme-instructions
+    
+    
+    if you modify your file 
+    git status 
+    git add ReadME.md
+    git commit -m "update readme"
+    git checkout master 
+    
+    git diff        ##diff will show changes that have been made to the two files 
+    git merger feature-readme-instructions
+    git checkout feature-readme-instructions
+    git status 
+    git push -u origin feature-readme-instructions
+    
+    
+    
+    
+    
+    
+    
+    
